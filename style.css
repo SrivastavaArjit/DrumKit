@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  height: 100vh;
+}
+
+.bg{
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#title{
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  color: #DBEDF3;
+  text-shadow: 2px 2px red;
+}
+
+.w{
+  background-image: url(images/crash.png);
+}
+
+.a{
+  background-image: url(images/kick.png);
+}
+
+.s{
+  background-image: url(images/snare.png);
+}
+
+.d{
+  background-image: url(images/tom1.png);
+}
+
+.j{
+  background-image: url(images/tom2.png);
+}
+
+.k{
+  background-image: url(images/tom3.png);
+}
+
+.l{
+  background-image: url(images/tom4.png);
+}
+
+.set{
+  margin: 10% auto;
+}
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.set button{
+  font-family: 'Arvo',cursive;
+  display: inline-block;
+  width: 9.5rem;
+  height: 9.5rem;
+  margin: 10px;
+  padding: 10px;
+  border: 8px solid #404B69;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #DA0463;
+  text-shadow: 2px 2px #DBEDF3;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 2;
+}
+
+footer{
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+}
